@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int TOH(int n, int A,int B,int C)
+{
+	if(n>0)
+	{
+		cout<<i;
+		TOH(n-1,A,C,B);
+		cout<<"move ("<<" "  <<A <<" To "<<C<<")"<<endl;
+		TOH(n-1,B,A,C);
+		
+	}else return 0;
+}
+int main()
+{	
+      cout<<"Entre No. Of  Disk To pass from Tower 1 To Tower 3 "<<endl;
+       int k;
+       cin>>k;
+   	TOH(k,1,2,3);
+	
+}
